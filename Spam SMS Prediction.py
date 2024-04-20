@@ -41,7 +41,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.0001, rand
 classifier = MultinomialNB(alpha=0.1)
 classifier.fit(X_train, y_train)
 
+print('Starting Prediction')
 y_pred = classifier.predict(X_test)
+print('Prediction Successful!')
 
 acc_s = accuracy_score(y_test, y_pred)*100
 print("Accuracy Score {} %".format(round(acc_s,2)))
