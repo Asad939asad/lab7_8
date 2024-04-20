@@ -1,5 +1,5 @@
 
-Note on Spam Detection Model Accuracy Improvement
+Spam Detection Model Accuracy Improvement
 Initial Accuracy: 95%
 Our initial spam detection model was performing with an accuracy of 95%. While this is a relatively high accuracy rate, there is always room for improvement, especially in critical applications like spam detection where false positives or false negatives can have significant consequences.
 
